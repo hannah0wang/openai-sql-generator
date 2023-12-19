@@ -6,7 +6,7 @@ app.use(express.json());
 
 app.use(cors());
 
-const port = process.env.PORT || 3006;
+const port = process.env.PORT || 3005;
 
 import generate from "./generate.js";
 
